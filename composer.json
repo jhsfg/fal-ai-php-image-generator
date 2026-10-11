@@ -1,0 +1,43 @@
+{
+    "name": "shareaichat/fal-ai-php-image-generator",
+    "description": "A zero-dependency PHP SDK for generating AI images with fal.ai — FLUX.1 Schnell, FLUX.1 Dev, FLUX Kontext and Stable Diffusion XL. Simple text-to-image, batch generation and image-to-image support.",
+    "keywords": [
+        "fal-ai",
+        "fal",
+        "ai-image-generator",
+        "text-to-image",
+        "flux",
+        "flux-schnell",
+        "flux-dev",
+        "flux-kontext",
+        "stable-diffusion",
+        "ai-art",
+        "image-generation",
+        "php-ai",
+        "generative-ai",
+        "ai-sdk",
+        "shareaichat"
+    ],
+    "license": "MIT",
+    "type": "library",
+    "homepage": "https://shareaichat.com",
+    "authors": [
+        {
+            "name": "ShareAIChat",
+            "homepage": "https://shareaichat.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ShareAIChat\\FalAi\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true
+    }
+}
